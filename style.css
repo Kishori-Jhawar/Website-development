@@ -891,6 +891,7 @@ section {
   cursor: default;
   transform: none;
   box-shadow: none;
+  opacity: 1;
 }
 
 /* ─── FOOTER ─── */
