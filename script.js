@@ -77,7 +77,7 @@ submitBtn.addEventListener('click', () => {
   submitBtn.textContent = '✓ Enquiry Submitted! We will call you shortly.';
   submitBtn.style.background    = '#14a3a8';
   submitBtn.style.color         = '#fff';
-  submitBtn.disabled            = true;
+  submitBtn.disabled            = false;
 });
 
 /* ─── ACTIVE NAV LINK ON SCROLL ─── */
