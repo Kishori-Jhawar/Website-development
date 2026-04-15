@@ -1,8 +1,3 @@
-/* ═══════════════════════════════════════════
-   EduPinnacle Commerce Academy — script.js
-   ═══════════════════════════════════════════ */
-
-/* ─── HAMBURGER MENU ─── */
 const hamburger = document.getElementById('hamburger');
 const navLinks  = document.getElementById('navLinks');
 
@@ -69,7 +64,7 @@ submitBtn.addEventListener('click', () => {
   const phone   = document.getElementById('phone').value.trim();
   phone.addEventListener('input', function (e) {
     // Replaces any character that is NOT a digit (0-9) with an empty string
-    this.value = this.value.replace(/[^0-9]/g, '');
+    this.value = this.value.replace(/[^0-9]/g, ' ');
 });
   const email   = document.getElementById('email').value.trim();
   const course  = document.getElementById('course').value;
