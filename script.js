@@ -62,10 +62,6 @@ const submitBtn = document.getElementById('submitBtn');
 submitBtn.addEventListener('click', () => {
   const name    = document.getElementById('name').value.trim();
   const phone   = document.getElementById('phone').value.trim();
-  phone.addEventListener('input', function (e) {
-    // Replaces any character that is NOT a digit (0-9) with an empty string
-    this.value = this.value.replace(/[^0-9]/g, ' ');
-});
   const email   = document.getElementById('email').value.trim();
   const course  = document.getElementById('course').value;
 
@@ -77,7 +73,7 @@ submitBtn.addEventListener('click', () => {
   submitBtn.textContent = '✓ Enquiry Submitted! We will call you shortly.';
   submitBtn.style.background    = '#14a3a8';
   submitBtn.style.color         = '#fff';
-  submitBtn.disabled            = false;
+  submitBtn.disabled            = true;
 });
 
 /* ─── ACTIVE NAV LINK ON SCROLL ─── */
