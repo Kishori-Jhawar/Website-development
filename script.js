@@ -60,7 +60,7 @@ barFills.forEach(bar => barObserver.observe(bar));
 const submitBtn = document.getElementById('submitBtn');
 
 submitBtn.addEventListener('click', () => {
-  const name    = document.getElementById('name').value.trim();
+  const name    = document.getElementById('fullname').value.trim();
   const phone   = document.getElementById('phone').value.trim();
   const email   = document.getElementById('email').value.trim();
   const course  = document.getElementById('course').value;
